@@ -1,6 +1,10 @@
 import os
 import json
 
+class Pixiv:
+    def __init__(self,user,passwd):
+        self.user = user
+        self.passwd = passwd
 
 class Configs:
 
@@ -10,6 +14,8 @@ class Configs:
         self.saucenao_key = js['saucenao_key']
         self.dowlaod_origin = js['dowlaod_origin']
         self.move = js['move']
+        js_pix = js['pixiv']
+        self.pixiv = Pixiv(js_pix['user'],js_pix['passwd'])
         f.close()
 
     @classmethod
