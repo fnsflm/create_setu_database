@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed27126d-b92c-4500-aa6a-3149e2646130" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/create_setu_database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/create_setu_database.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_database/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/other/DzJ3-03VYAAnK54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/other/pic_list.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/pixiv/58883630_p0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/pixiv/60082303_p0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/pixiv/77539149_p0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/pixiv/pic_list.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/pixiv/ななはるちゃん_71676520_p0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/unknow/pic_list.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +21,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -74,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613754949072</updated>
-      <workItem from="1613754950307" duration="388000" />
+      <workItem from="1613754950307" duration="1402000" />
     </task>
     <servers />
   </component>
@@ -82,6 +75,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/create_setu_database$main.coverage" NAME="main Coverage Results" MODIFIED="1613754999785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/create_setu_database$main.coverage" NAME="main Coverage Results" MODIFIED="1613755353329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
