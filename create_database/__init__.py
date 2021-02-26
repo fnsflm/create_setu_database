@@ -1,10 +1,14 @@
 import os
 import json
 
+
 class Pixiv:
-    def __init__(self,user,passwd):
+    def __init__(self, user, passwd, access_token,refresh_token):
         self.user = user
         self.passwd = passwd
+        self.access_token = access_token
+        self.refresh_token = refresh_token
+
 
 class Configs:
 
@@ -15,7 +19,8 @@ class Configs:
         self.dowlaod_origin = js['dowlaod_origin']
         self.move = js['move']
         js_pix = js['pixiv']
-        self.pixiv = Pixiv(js_pix['user'],js_pix['passwd'])
+        self.pixiv = Pixiv(js_pix['user'], js_pix['passwd'], js_pix['access_token'],js_pix['refresh_token'])
+        self.proxy = js['proxy']
         f.close()
 
     @classmethod
@@ -28,6 +33,7 @@ class Configs:
     \"move\": 0
 }\n""")
             f.close()
+
 
 Configs.before_get_config()
 configs = Configs()
